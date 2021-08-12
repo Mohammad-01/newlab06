@@ -1,0 +1,24 @@
+*{
+    background-color: khaki;
+}
+
+body {
+    font-style:initial;
+    color: rgb(0, 0, 0);
+}
+
+#bb {
+    background-color: rgb(3, 21, 39);
+    border:rgb(3, 21, 39);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:lightgreen;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+a {
+    color: rgb(3, 21, 39);
+    list-style-type: none;
+}

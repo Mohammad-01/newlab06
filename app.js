@@ -142,7 +142,8 @@ Location.prototype.render = function () {
 
     Lima.Randomm();
     Lima.render();
-    
+
+    Total2();
      //***************************************
      let myForm = document.getElementById('myForm');
 
@@ -157,11 +158,12 @@ Location.prototype.render = function () {
          console.log(MinimumCustomersPH);
          console.log(MaximumCustomersPH);
          console.log(AvgCookie);*/
+         tableEl.deleteRow(-1)
          let newLocation = new Location (LocationName,min,max,AvgCookie);
          newLocation.Randomm();
          newLocation.render();
          Total2();
-    
+         document.getElementById('myForm').reset();
      } 
      
      //************************************** */
