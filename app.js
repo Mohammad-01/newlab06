@@ -124,8 +124,6 @@ Location.prototype.render = function () {
       
       }
    
-   
-     
     createTableHeader();
     
     seattel.Randomm();
@@ -144,6 +142,7 @@ Location.prototype.render = function () {
     Lima.render();
 
     Total2();
+    
      //***************************************
      let myForm = document.getElementById('myForm');
 
@@ -163,7 +162,7 @@ Location.prototype.render = function () {
          newLocation.Randomm();
          newLocation.render();
          Total2();
-         document.getElementById('myForm').reset();
+         
      } 
      
      //************************************** */

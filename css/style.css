@@ -1,10 +1,18 @@
 header h1 {height: 70px;
+    font-family: 'Righteous', cursive;
     font-size: xx-large;}
     header{font-size: x-large;}
     /* Slideshow container */
     .slideshow-container {
       position: relative;
       margin: auto;
+     
+    }
+
+    a {
+      font-size: x-large;
+      text-decoration: none;
+      color:rgb(78, 57, 3);
     }
     
     .row {
@@ -126,3 +134,26 @@ header h1 {height: 70px;
     Total2{
       background-color: blanchedalmond;
     }
+
+    main {
+      color: rgb(3, 3, 58);
+    }
+    /********************************************/
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    

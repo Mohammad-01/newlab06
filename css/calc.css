@@ -2,15 +2,26 @@
     background-color: khaki;
 }
 
+legend {
+    font-size: x-large;
+    color: rgb(114, 84, 7);
+}
+
+fieldset {
+    color: rgb(9, 25, 97);
+}
+
+legend {
+    font-family: 'Righteous', cursive;
+}
+
 body {
     font-style:initial;
     color: rgb(0, 0, 0);
 }
 
 #bb {
-    background-color: rgb(3, 21, 39);
-    border:rgb(3, 21, 39);
-    color: white;
+    background-color: rgb(102, 2, 2);
     padding: 15px 32px;
     text-align: center;
     text-decoration:lightgreen;
@@ -19,6 +30,16 @@ body {
   }
 
 a {
-    color: rgb(3, 21, 39);
-    list-style-type: none;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: rgb(9, 25, 97);
+    font-style: none;
+    font-size: x-large;
+}
+
+#con {
+    color: rgb(9, 25, 97);
+}
+input{
+    background-color:cornsilk;
 }
